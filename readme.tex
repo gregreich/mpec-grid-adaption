@@ -1,0 +1,82 @@
+% TODO: 
+% page 19 rewrite SV explanation
+
+\documentclass[12pt]{article}
+
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{chicago}
+\usepackage[T1]{fontenc}
+%\usepackage{bibgerm}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{latexsym,amssymb,graphicx,array,amsmath}
+\usepackage{booktabs}
+\usepackage{endnotes}
+\usepackage{graphicx}
+%\usepackage{natbib}
+\usepackage{epic}
+\usepackage{setspace}
+\usepackage[flushmargin]{footmisc}
+\usepackage{graphpap}
+\usepackage{rotating}
+\usepackage{amssymb}
+%\usepackage{wasysym}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{acronym}
+\usepackage{cite}
+\usepackage{epstopdf}
+
+%\renewcommand{\bflabel}[1]{\normalfont{\normalsize{#1}}\hfill}
+\usepackage[hang]{caption}
+\usepackage{float} 
+
+\usepackage{tabularx, booktabs}
+%\usepackage{hyperref} 
+\def\tablenotes{\vskip2pt\footnotesize}
+\let\endtablenotes\relax
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.3in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\topmargin}{-0.75in}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{prop}{Proposition}
+\renewcommand{\baselinestretch}{1.2}
+%\renewcommand{\thetable}{\Roman{table}}
+
+\usepackage{hyperref}
+
+
+\begin{document}
+
+\begin{center}
+\Large{
+\textbf{Instructions for the supplementary codes of 'Adaptive Grids for the Estimation of Dynamic Programming Models'} \\[10pt]
+}
+
+
+\textbf{Authors: Andreas Lanz, Gregor Reich and Ole Wilms}\\
+\textbf{Contact: \url{http://www.olewilms.com}}
+
+\end{center}
+
+\noindent \textbf{Instructions:}
+
+\begin{itemize}
+	\item The codes solves the bus engine replacement model of  Rust (1987) both using a fixed grid and the flexible grid proposed in the paper.
+	
+	\item As in Section 2.3.3 of the paper, a monte carlo study is conducted to estimate the model parameters using both, the flexible and fixed grid.
+	
+	\item The main file to run the codes is 'Main.m'. It reproduces Table 3 and 5 in the paper depending on the choice of cost function and $\theta_2$ parameter.
+	
+	\item Please use Matlab R2017a or a more recent version to run the codes. 
+\end{itemize}
+
+
+\end{document}
